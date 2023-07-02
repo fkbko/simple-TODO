@@ -1,14 +1,22 @@
 import com.sun.source.util.SourcePositions;
-
+import java.io.File;
+import java.io.FileWriter;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 public class TodoMain {
-    public static List<String> myLists = new ArrayList<String>();
+   static List<String> myLists;
+   static String fileName;
 
     public static void main(String[] args) {
+        myLists = new ArrayList<>();
+        String filePath = System.console() == null ? "/src/todolist.txt" : "/todolist.txt";
+        fileName = System.getProperty("user.dir") + filePath;
 
+        System.out.println("FILE: " + fileName);
 
         int menuItem = -1;
         while (menuItem != 0) {

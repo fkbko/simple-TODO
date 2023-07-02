@@ -12,5 +12,7 @@ public class Menu {
         System.out.print("Enter option: ");
         int choice = scanner.nextInt();
         return choice;
+
+
     }
 }
