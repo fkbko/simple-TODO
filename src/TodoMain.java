@@ -16,8 +16,6 @@ public class TodoMain {
         String filePath = System.console() == null ? "/src/todolist.txt" : "/todolist.txt";
         fileName = System.getProperty("user.dir") + filePath;
 
-        System.out.println("FILE: " + fileName);
-
         int menuItem = -1;
         while (menuItem != 0) {
             menuItem = Menu.menu();
