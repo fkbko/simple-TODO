@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9be44aa-3399-48a4-9858-39f080670ee1" name="Changes" comment="-">
-      <change beforePath="$PROJECT_DIR$/src/TodoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/removeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/removeTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todolist.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +35,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager" selected="Application.TodoMain">
@@ -71,7 +73,11 @@
       <workItem from="1687691278679" duration="1582000" />
       <workItem from="1688145739603" duration="26000" />
       <workItem from="1688145784295" duration="3276000" />
-      <workItem from="1688230065977" duration="7221000" />
+      <workItem from="1688230065977" duration="8192000" />
+      <workItem from="1689495722754" duration="2170000" />
+      <workItem from="1690493129229" duration="78000" />
+      <workItem from="1690538600332" duration="5000" />
+      <workItem from="1690538821563" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1687689633585</created>

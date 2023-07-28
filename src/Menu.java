@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Menu {
     public static int menu() {
         Scanner scanner = new Scanner(System.in);

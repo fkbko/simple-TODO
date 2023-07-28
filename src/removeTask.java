@@ -14,10 +14,10 @@ public class removeTask {
                 throw new IndexOutOfBoundsException("wrong data");
             } else {
 
-            System.out.println("will be removed: ");
-            System.out.println(String.format("[%d] %s", index, TodoMain.myLists.get(index)));
-            TodoMain.myLists.remove(index);
-            try {
+                System.out.println("will be removed: ");
+                System.out.println(String.format("[%d] %s", index, TodoMain.myLists.get(index)));
+                TodoMain.myLists.remove(index);
+                try {
                     FileWriter fileWriter = new FileWriter(TodoMain.fileName, false);
 
                     for (String data : TodoMain.myLists) {
@@ -30,8 +30,8 @@ public class removeTask {
                     System.out.println("An error occurred: " + e.getMessage());
                 }
             }
-    } catch (Exception e) {
-        System.out.println(e.getMessage());
-    }
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
     }
 }
