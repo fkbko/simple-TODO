@@ -8,7 +8,6 @@ public class addTask {
         Scanner scanner = new Scanner(System.in);
         String item = scanner.nextLine();
         try {
-            // tulis file
             FileWriter fileWriter = new FileWriter(TodoMain.fileName, true);
             fileWriter.append(String.format("%s%n", item));
             fileWriter.close();

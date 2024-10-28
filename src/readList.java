@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class readList {
     static void readTodoList() {
         try {
-            File file = new File(TodoMain.fileName);
+            File file = new File();
             Scanner fileReader = new Scanner(file);
 
             TodoMain.myLists.clear();
