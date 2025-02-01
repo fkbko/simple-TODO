@@ -6,15 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="e9be44aa-3399-48a4-9858-39f080670ee1" name="Changes" comment="-">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TodoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/removeTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sosal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sosal.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginEngine1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginEngine1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegistrationEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistrationEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskManager.java" afterDir="false" />
     </list>
-    <list id="5cc54c67-1d68-4233-88d1-52436d75310f" name="Changes by baiko" comment="">
-      <change beforePath="$PROJECT_DIR$/src/showLists.java" beforeDir="false" />
-    </list>
+    <list id="5cc54c67-1d68-4233-88d1-52436d75310f" name="Changes by baiko" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

@@ -17,7 +17,7 @@ public class LoginEngine1 extends RegistrationEngine {
             while ((readed = bufferedReader.readLine()) != null) {
 
                 if (readed.equals(password)){
-                    TaskManager tm = new TaskManager(username);
+                    TaskManager tm = new TaskManager(usrFile);
                     Menu menu = new Menu(tm);
                     menu.function();
                     return true;

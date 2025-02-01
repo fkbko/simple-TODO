@@ -19,7 +19,7 @@ public class RegistrationEngine {
                 writer.write(password);
                 writer.newLine();
                 writer.write(username);
-                TaskManager tm = new TaskManager(username);
+                TaskManager tm = new TaskManager(usrFile);
                 System.out.println("registered successfully");
                 return true;
             } catch (IOException e) {

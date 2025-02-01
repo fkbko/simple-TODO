@@ -9,8 +9,8 @@ public class TaskManager implements ToDoInterface {
     File TxtToDoData;
     private Map<String, TaskEngine> tasks;
 
-    public TaskManager(String username) {
-        this.TxtToDoData = new File(usrDIR + username + "1" + ".txt");
+    public TaskManager(File usrFile) {
+        this.TxtToDoData = usrFile;
         this.tasks = loadFromTxt();
     }
 
@@ -18,7 +18,7 @@ public class TaskManager implements ToDoInterface {
     @Override
     public void addTask(TaskEngine taskEngine) {
         tasks.put(taskEngine.getKey(), taskEngine);
-        saveToTxt();
+        saveToTxt( taskEngine);
     }
 
     @Override
@@ -48,11 +48,22 @@ public class TaskManager implements ToDoInterface {
     }
 
     private void saveToTxt() {
-        try (BufferedWriter writer = new BufferedWriter(new FileWriter(TxtToDoData))) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(TxtToDoData, true))) {
             for (TaskEngine task : tasks.values()) {
-                writer.write(task.toString());
                 writer.newLine();
+                writer.write(task.toString());
             }
+
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+    private void saveToTxt( TaskEngine taskEngine) {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(TxtToDoData, true))) {
+
+                writer.newLine();
+                writer.write(taskEngine.toString());
+
 
         } catch (IOException e) {
             System.out.println(e.getMessage());
@@ -64,8 +75,11 @@ public class TaskManager implements ToDoInterface {
 
         try (BufferedReader reader = new BufferedReader(new FileReader(TxtToDoData))) {
             String line;
+            reader.readLine();
+            reader.readLine();
             while ((line = reader.readLine()) != null) {
                 TaskEngine task = parseTask(line);
+
                 if (task != null) {
                     taskEngineMap.put(task.getKey(), task);
                 }
