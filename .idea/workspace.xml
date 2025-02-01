@@ -5,19 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9be44aa-3399-48a4-9858-39f080670ee1" name="Changes" comment="-">
-      <change afterPath="$PROJECT_DIR$/src/Registration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginEngine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TodoMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Users.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/readList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/readList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/showLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/showLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/readList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/removeTask.java" beforeDir="false" />
     </list>
     <list id="5cc54c67-1d68-4233-88d1-52436d75310f" name="Changes by baiko" comment="">
-      <change beforePath="$PROJECT_DIR$/src/showLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/showLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/showLists.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +33,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/showLists.java">
-      <ranges>
-        <range start1="2" end1="3" start2="2" end2="3" changelist="e9be44aa-3399-48a4-9858-39f080670ee1" />
-        <range start1="7" end1="8" start2="7" end2="8" changelist="5cc54c67-1d68-4233-88d1-52436d75310f" />
-      </ranges>
-    </file>
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2RgwdxoVqb80yi02L7ZBr7wRmQP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -61,8 +52,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.TodoMain.executor&quot;: &quot;Run&quot;,
     &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -93,6 +87,14 @@
         <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -136,6 +138,15 @@
       <workItem from="1729978441916" duration="7785000" />
       <workItem from="1730105853781" duration="4196000" />
       <workItem from="1730110232267" duration="22000" />
+      <workItem from="1730110275257" duration="949000" />
+      <workItem from="1730111246847" duration="7246000" />
+      <workItem from="1730134409248" duration="15000" />
+      <workItem from="1730134925429" duration="230000" />
+      <workItem from="1730135161777" duration="811000" />
+      <workItem from="1730360269858" duration="6597000" />
+      <workItem from="1737924667317" duration="636000" />
+      <workItem from="1738338830580" duration="7432000" />
+      <workItem from="1738417776700" duration="2381000" />
     </task>
     <task id="LOCAL-00001" summary="-">
       <created>1687689633585</created>
@@ -144,13 +155,25 @@
       <option name="project" value="LOCAL" />
       <updated>1687689633587</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="-">
+      <created>1730110318374</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730110318374</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="dcc1a0db-fa30-4faa-87a5-2ca1564b1705" value="TOOL_WINDOW" />
+      </map>
+    </option>
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
@@ -167,7 +190,6 @@
         <entry key="dcc1a0db-fa30-4faa-87a5-2ca1564b1705">
           <value>
             <State>
-              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -186,14 +208,10 @@
                   </entry>
                 </map>
               </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
             </State>
           </value>
         </entry>
-      </map>
-    </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="dcc1a0db-fa30-4faa-87a5-2ca1564b1705" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>

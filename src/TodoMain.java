@@ -1,8 +1,26 @@
+import java.util.Scanner;
 
-public class TodoMain {
+public class TodoMain extends RegistrationEngine {
     public static void main(String[] args) {
-        TaskManager taskManager = new TaskManager("todolist.xml");
-        Menu menu = new Menu(taskManager);
-        menu.function();
+        String currentDir = System.getProperty("user.dir");
+        System.out.println(currentDir);
+        System.out.println("1. регистрация");
+        System.out.println("2. вход");
+        Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
+
+                switch (num){
+                    case 1:
+                        RegistrationEngine registrationEngine = new RegistrationEngine();
+                        Register();
+                        break;
+                    case 2:
+                        LoginEngine1.login1();
+
+                        break;
+
+        }
     }
 }
+
+

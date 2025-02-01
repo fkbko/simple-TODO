@@ -1,13 +1,9 @@
-import java.io.FileWriter;
-import java.io.IOException;
-
-
-public class Registration {
+public class User {
 
     private String username;
     private String password;
 
-    public Registration(String username, String password){
+    public User(String username, String password){
         this.username = username;
         this.password = password;
                 }
