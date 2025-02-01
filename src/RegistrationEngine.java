@@ -7,7 +7,7 @@ public class RegistrationEngine {
 
         private static final String usrDIR = "/Users/mac/Documents/JavaProjects/simple TODO/";
 
-
+        private static LoginEngine1 loginEngine;
         public static boolean Register () {
             Scanner scan = new Scanner(System.in);
             System.out.println("Enter Username and Password:");
@@ -21,6 +21,7 @@ public class RegistrationEngine {
                 writer.write(username);
                 TaskManager tm = new TaskManager(usrFile);
                 System.out.println("registered successfully");
+                loginEngine.login1();
                 return true;
             } catch (IOException e) {
                 return false;

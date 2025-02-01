@@ -97,7 +97,7 @@ public class TaskManager implements ToDoInterface {
             String key = parts[0];
             String name = parts[1];
             String description = parts.length > 2 ? parts[2] : "";
-            return new TaskEngine(key, name, description);
+            return new TaskEngine(name, description);
         } catch (Exception e) {
             System.err.println("Ошибка парсинга задачи: " + line);
             return null;

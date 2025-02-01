@@ -6,13 +6,11 @@ public class TaskInputReader {
         this.scanner = scanner;
     }
     public TaskEngine readTaskInput(){
-        System.out.println("Введите ключ задачи:");
-        String key = scanner.next();
         System.out.println("Введите заголовок задачи: ");
         scanner.nextLine();
         String title = scanner.nextLine();
         System.out.println("Введите описание задачи: ");
         String description = scanner.nextLine();
-        return  new TaskEngine(key, title, description);
+        return  new TaskEngine(title, description);
     }
 }

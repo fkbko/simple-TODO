@@ -4,9 +4,11 @@ public class TaskEngine implements Serializable {
     private String key;
     private String title;
     private String description;
+    private static int idCounter = 0;
 
-    public TaskEngine(String key, String title, String description) {
-        this.key = key;
+    public TaskEngine(String title, String description) {
+        int i = idCounter++;
+        this.key = String.valueOf(i);
         this.title = title;
         this.description = description;
 

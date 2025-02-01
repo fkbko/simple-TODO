@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9be44aa-3399-48a4-9858-39f080670ee1" name="Changes" comment="-">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sosal.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sosal.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginEngine1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginEngine1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RegistrationEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegistrationEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TaskManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="e9be44aa-3399-48a4-9858-39f080670ee1" name="Changes" comment="-" />
     <list id="5cc54c67-1d68-4233-88d1-52436d75310f" name="Changes by baiko" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +57,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TodoMain">
+  <component name="RunManager" selected="Application.main">
     <configuration name="TodoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TodoMain" />
       <module name="simple TODO" />
@@ -159,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730110318374</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="-">
+      <option name="closed" value="true" />
+      <created>1738428765612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738428765612</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
