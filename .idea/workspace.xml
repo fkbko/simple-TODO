@@ -4,7 +4,54 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9be44aa-3399-48a4-9858-39f080670ee1" name="Changes" comment="-" />
+    <list default="true" id="e9be44aa-3399-48a4-9858-39f080670ee1" name="Changes" comment="-">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asd.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/balls.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/balls.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/c.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dfg.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/g.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gig.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hgdf.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hgdf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hjj.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kok.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/q.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple TODO.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sosal.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tgh.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todolist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tre.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/z.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoginEngine1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegistrationEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TaskEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TaskInputReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TaskManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ToDoInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodoMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/credentials.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/todolist.txt" beforeDir="false" />
+    </list>
     <list id="5cc54c67-1d68-4233-88d1-52436d75310f" name="Changes by baiko" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,23 +88,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.TodoMain.executor&quot;: &quot;Run&quot;,
-    &quot;TODO_SCOPE&quot;: &quot;All Places&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.TodoMain.executor": "Run",
+    "TODO_SCOPE": "All Places",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.main">
+}]]></component>
+  <component name="RunManager" selected="Application.TodoMain">
     <configuration name="TodoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TodoMain" />
       <module name="simple TODO" />
@@ -153,15 +203,7 @@
       <option name="project" value="LOCAL" />
       <updated>1730110318374</updated>
     </task>
-    <task id="LOCAL-00003" summary="-">
-      <option name="closed" value="true" />
-      <created>1738428765612</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1738428765612</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
