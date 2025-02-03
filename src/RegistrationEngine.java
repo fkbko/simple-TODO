@@ -10,8 +10,9 @@ public class RegistrationEngine {
 
         public static boolean Register () {
             Scanner scan = new Scanner(System.in);
-            System.out.println("Enter Username and Password:");
+            System.out.println("введите имя пользователя:");
             String username = scan.nextLine();
+            System.out.println("введите пароль:");
             String password = scan.nextLine();
             File usrFile = new File(usrDIR + username + ".txt");
             User user = new User(username, password);
@@ -20,7 +21,7 @@ public class RegistrationEngine {
                 writer.newLine();
                 writer.write(username);
                 TaskManager tm = new TaskManager(usrFile);
-                System.out.println("registered successfully");
+                System.out.println("пользователь зарегистрирован");
                 return true;
             } catch (IOException e) {
                 return false;

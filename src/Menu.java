@@ -43,7 +43,7 @@ public class Menu {
         System.out.println("1. Добавить задачу");
         System.out.println("2. Удалить задачу");
         System.out.println("3. Обновить задачу");
-        System.out.println("4. Показать задачу по ключу");
+        System.out.println("4. Показать задачу по номеру");
         System.out.println("5. Показать все задачи");
         System.out.println("6. Выход");
     }
@@ -58,14 +58,14 @@ public class Menu {
     }
 
     private void deleteTask(){
-        System.out.println("введите ключ для удаления: ");
+        System.out.println("введите номер задачи для удаления: ");
         String DeleteKey = scanner.next();
         taskManager.deleteTask(DeleteKey);
         System.out.println("задача удалена");
     }
 
     private void redactTask(){
-        System.out.println("Ведите ключ задчи для редактирования:");
+        System.out.println("Ведите номер задчи для редактирования:");
         String UpdatingKey = scanner.next();
         TaskEngine ifExist = taskManager.showTask(UpdatingKey);
         if (ifExist != null){
@@ -80,7 +80,7 @@ public class Menu {
 
     }
     private void displayTask(){
-        System.out.println("Введите ключ для просмотра задачи:");
+        System.out.println("Введите номер для просмотра задачи:");
         String DisplayingKey = scanner.next();
         TaskEngine displayingTask = taskManager.showTask(DisplayingKey);
         if (displayingTask != null){
@@ -93,7 +93,7 @@ public class Menu {
     private void displayAllTasks(){
         System.out.println("список задач: ");
         for (TaskEngine taskEngine: taskManager.getAllTask()){
-            System.out.println("Ключ: " + taskEngine.getKey());
+            System.out.println("Номер: " + taskEngine.getKey());
             System.out.println("Заголовок: " + taskEngine.getTitle());
             System.out.println("Описание: " + taskEngine.getDescription());
             System.out.println();

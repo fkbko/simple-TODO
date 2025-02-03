@@ -93,7 +93,7 @@ public class TaskManager implements ToDoInterface {
     }
     private TaskEngine parseTask(String line) {
         try {
-            String[] parts = line.split(";;"); // Пример формата: key,name,description
+            String[] parts = line.split(";;");
             String key = parts[0];
             String name = parts[1];
             String description = parts.length > 2 ? parts[2] : "";
