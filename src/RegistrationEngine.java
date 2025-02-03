@@ -21,13 +21,12 @@ public class RegistrationEngine {
                 writer.newLine();
                 writer.write(username);
                 TaskManager tm = new TaskManager(usrFile);
-                System.out.println("пользователь зарегистрирован");
+                System.out.println("пользователь зарегистрирован, повторите имя пользователя и пароль чтобы войти");
                 return true;
             } catch (IOException e) {
                 return false;
 
             }
-
 
         }
     }

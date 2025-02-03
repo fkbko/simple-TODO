@@ -15,7 +15,6 @@ public class LoginEngine1 extends RegistrationEngine {
         try (BufferedReader bufferedReader = new BufferedReader(new FileReader(usrFile))){
             String readed;
             while ((readed = bufferedReader.readLine()) != null) {
-
                 if (readed.equals(password)){
                     TaskManager tm = new TaskManager(usrFile);
                     Menu menu = new Menu(tm);

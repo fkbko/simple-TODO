@@ -12,7 +12,9 @@ public class TodoMain extends RegistrationEngine {
                 switch (num){
                     case 1:
                         RegistrationEngine registrationEngine = new RegistrationEngine();
-                        Register();
+                        if (Register()){
+                            LoginEngine1.login1();
+                        }
                         break;
                     case 2:
                         LoginEngine1.login1();
